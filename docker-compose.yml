@@ -22,7 +22,7 @@ services:
       - MONGO_DATA_DIR=/data/db
     volumes:
       - type: volume
-        source: small-youtube-dbdata
+        source: dbdata
         target: /data/db
         volume:
           nocopy: true
